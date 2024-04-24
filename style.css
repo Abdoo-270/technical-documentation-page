@@ -1,0 +1,36 @@
+.navbar-fixed-left {
+width: 240px;
+position: fixed;
+border-radius: 0;
+height: 100%;
+}
+.navbar-fixed-left .navbar-nav li {
+float: none !important;
+  /* Cancel default li float: left */
+width: 139px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#main-doc {
+  margin-left: 250px;
+  padding: 10px;
+}
+#main-doc h1{
+  margin-bottom: 30px;
+}
+header {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+code{
+  background: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar-brand {
+  color: #000;
+}
